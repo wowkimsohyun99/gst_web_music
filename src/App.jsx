@@ -47,7 +47,7 @@ function App() {
     const [stationName, setStationName] = useState("LofiGirl");
 
 
-    const [youtubeChannal, setYoutubeChannal] = useState("");
+    const [youtubeChannel, setYoutubeChannel] = useState("");
 
     const handlePausePlaySwitch = (e) => {
         let className = e.target.className;
@@ -87,7 +87,7 @@ function App() {
     const LofiGirlVideo = () => {
         setVideo("//www.youtube.com/embed/TURbeWK2wwg?autoplay=1&mute=1&start=1");
         setStationName("LofiGirl");
-        setYoutubeChannal(
+        setYoutubeChannel(
             "https://www.youtube.com/channel/UCSJ4gkVC6NrvII8umztf0Ow"
         );
         setLivestream(
@@ -103,7 +103,7 @@ function App() {
     const AmbientRenders = () => {
         setVideo("//www.youtube.com/embed/hBGbt2CRDpA?autoplay=1&mute=1&start=1");
         setStationName("Ambient Renders");
-        setYoutubeChannal(
+        setYoutubeChannel(
             "https://www.youtube.com/channel/UCXbXfisDHV_gDjawCKTyTIw"
         );
         setLivestream(
@@ -119,7 +119,7 @@ function App() {
     const IvyRecords = () => {
         setVideo("//www.youtube.com/embed/F1B9Fk_SgI0?autoplay=1&mute=1&start=10");
         setStationName("Ivy Records");
-        setYoutubeChannal(
+        setYoutubeChannel(
             "https://www.youtube.com/channel/UCv7qaGzuEfLhKxAZf4eZONg"
         );
         setLivestream(
@@ -135,7 +135,7 @@ function App() {
     const ChillHiphop = () => {
         setVideo("//www.youtube.com/embed/iEGFFyv0MH4?autoplay=1&mute=1&start=1");
         setStationName("ChillHop Music");
-        setYoutubeChannal("https://www.youtube.com/c/Chillhopdotcom/videos");
+        setYoutubeChannel("https://www.youtube.com/c/Chillhopdotcom/videos");
         setLivestream(
             "https://www.youtube.com/watch?v=7NOSDKb0HlU&ab_channel=ChillhopMusic"
         );
@@ -149,7 +149,7 @@ function App() {
     const HFiveGOneFunc = () => {
         setVideo("//www.youtube.com/embed/lniKA4QHuxg?autoplay=1&mute=1&start=1");
         setStationName("H5G1 Music");
-        setYoutubeChannal(
+        setYoutubeChannel(
             "https://www.youtube.com/channel/UCIPy2w-XdvaU73L3nAK1-0g"
         );
         setLivestream(
@@ -163,13 +163,13 @@ function App() {
     };
 
     const StudyMD = () => {
-        setVideo("//www.youtube.com/embed/PcxpLIv4CNU?autoplay=1&mute=1&start=1");
+        setVideo("https://www.youtube.com/watch?v=wBgSH-CGPzg&ab_channel=Tomorrowland");
         setStationName("StudyMD");
-        setYoutubeChannal(
-            "https://www.youtube.com/channel/UC5CRP-6oxYenIgBj17CkBZg"
+        setYoutubeChannel(
+            "https://www.youtube.com/user/tomorrowlandchannel/custom"
         );
         setLivestream(
-            "https://www.youtube.com/watch?v=uxR_sTZnBtg&ab_channel=StudyMD"
+            "https://www.youtube.com/watch?v=wBgSH-CGPzg&ab_channel=Tomorrowland"
         );
         playLiveStream(true);
         setPauseScreen("unpauseScreen");
@@ -181,7 +181,7 @@ function App() {
     const astralThrob = () => {
         setVideo("//www.youtube.com/embed/RJcIzUNKSQk?autoplay=1&mute=1&start=1");
         setStationName("Astral Throb");
-        setYoutubeChannal("https://www.youtube.com/c/AstralThrob");
+        setYoutubeChannel("https://www.youtube.com/c/AstralThrob");
         setLivestream(
             "https://www.youtube.com/watch?v=UedTcufyrHc&ab_channel=NightrideFM"
         );
@@ -195,7 +195,7 @@ function App() {
     const chilledCow = () => {
         setVideo("//www.youtube.com/embed/lTRiuFIWV54?autoplay=1&mute=1&start=1");
         setStationName("Chilled Cow");
-        setYoutubeChannal("https://www.youtube.com/c/LofiGirl");
+        setYoutubeChannel("https://www.youtube.com/c/LofiGirl");
         setLivestream(
             "https://www.youtube.com/watch?v=DWcJFNfaw9c&ab_channel=LofiGirl"
         );
@@ -209,7 +209,7 @@ function App() {
     const theJazzHopCafe = () => {
         setVideo("//www.youtube.com/embed/U8HBZOTZrf0?autoplay=1&mute=1&start=1");
         setStationName("theJazz Cafe");
-        setYoutubeChannal("https://www.youtube.com/c/TheJazzHopCaf%C3%A9");
+        setYoutubeChannel("https://www.youtube.com/c/TheJazzHopCaf%C3%A9");
         setLivestream(
             "https://www.youtube.com/watch?v=-5KAN9_CzSA&ab_channel=STEEZYASFUCK"
         );
@@ -221,9 +221,9 @@ function App() {
     };
 
     const Spinnin = () => {
-        setVideo("//www.youtube.com/embed/N65Jb683pXQ?autoplay=1&mute=1&start=0");
+        setVideo("https://www.youtube.com/watch?v=0NbsyUXp1UI&t=1s&ab_channel=Spinnin%27Records?autoplay=1&mute=1&start=0");
         setStationName("Spinnin' Records");
-        setYoutubeChannal(
+        setYoutubeChannel(
             "https://www.youtube.com/channel/UCpDJl2EmP7Oh90Vylx0dZtA"
         );
         setLivestream(
@@ -236,10 +236,26 @@ function App() {
         setBtnClass2("playBtn2");
     };
 
+    const Tomorrowland = () => {
+        setVideo("//https://www.youtube.com/watch?v=wBgSH-CGPzg&ab_channel=Tomorrowland");
+        setStationName("Tomorrowland");
+        setYoutubeChannel(
+            "https://www.youtube.com/user/tomorrowlandchannel/custom"
+        );
+        setLivestream(
+            "https://www.youtube.com/watch?v=wBgSH-CGPzg&ab_channel=Tomorrowland"
+        );
+        playLiveStream(true);
+        setPauseScreen("unpauseScreen");
+        setPlayPause(pauseImg);
+        setBtnClass("PlayPause2");
+        setBtnClass2("playBtn2");
+    };
+
     const NiceGuys = () => {
         setVideo("//www.youtube.com/embed/3n1aC2TYXIA?autoplay=1&mute=1&start=1");
         setStationName("Nice Guys");
-        setYoutubeChannal(
+        setYoutubeChannel(
             "https://www.youtube.com/channel/UCMmt12UKW571UWtJAgWkWqg"
         );
         setLivestream(
@@ -255,7 +271,7 @@ function App() {
     const animeVibe = () => {
         setVideo("//www.youtube.com/embed/5B7Rsw0L2r8?autoplay=1&mute=1&start=0");
         setStationName("AnimeVibe");
-        setYoutubeChannal("https://www.youtube.com/c/AnimeVibe");
+        setYoutubeChannel("https://www.youtube.com/c/AnimeVibe");
         setLivestream(
             "https://www.youtube.com/watch?v=WDXPJWIgX-o&ab_channel=nostalgic"
         );
@@ -285,6 +301,7 @@ function App() {
                         Study={StudyMD}
                         Jazz={theJazzHopCafe}
                         Nice={NiceGuys}
+                        Tomorrowland={Tomorrowland}
                     />
                 </div>
                 <div className="socialsContainer2">
@@ -317,7 +334,7 @@ function App() {
                 <PauseImage />
                 <p style={{ marginTop: "0rem" }}>Music Paused</p>
             </div>
-            <AdditionSettings youtube={youtubeChannal} radio={stationName} />
+            <AdditionSettings youtube={youtubeChannel} radio={stationName} />
             <div class="videoContainer">
                 <ReactPlayer
                     className="vid"
