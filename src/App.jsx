@@ -293,7 +293,7 @@ function App() {
                             whileHover={{ scale: 1.09 }}
                             whileTap={{ scale: 0.9 }}
                             onClick={() => {
-                                window.open("https://github.com/adamPatrick12");
+                                window.open("https://github.com/wowkimsohyun99");
                             }}
                             className="link"
                         >
