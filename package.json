@@ -9,6 +9,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "framer-motion": "^6.0.0",
+    "redux": "^4.1.2",
+    "video-react": "^0.15.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "gh-pages": "^2.2.0",
