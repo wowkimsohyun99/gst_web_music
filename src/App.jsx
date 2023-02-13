@@ -163,13 +163,13 @@ function App() {
     };
 
     const StudyMD = () => {
-        setVideo("https://www.youtube.com/watch?v=wBgSH-CGPzg&ab_channel=Tomorrowland");
+        setVideo("https://www.youtube.com/watch?v=TetGasf6DjU&ab_channel=StudyMD");
         setStationName("StudyMD");
         setYoutubeChannel(
-            "https://www.youtube.com/user/tomorrowlandchannel/custom"
+            "https://www.youtube.com/@StudyMDm"
         );
         setLivestream(
-            "https://www.youtube.com/watch?v=wBgSH-CGPzg&ab_channel=Tomorrowland"
+            "https://www.youtube.com/watch?v=TetGasf6DjU&ab_channel=StudyMD"
         );
         playLiveStream(true);
         setPauseScreen("unpauseScreen");
@@ -193,11 +193,11 @@ function App() {
     };
 
     const chilledCow = () => {
-        setVideo("//www.youtube.com/embed/lTRiuFIWV54?autoplay=1&mute=1&start=1");
+        setVideo("https://www.youtube.com/watch?v=jfKfPfyJRdk&ab_channel=LofiGirl");
         setStationName("Chilled Cow");
         setYoutubeChannel("https://www.youtube.com/c/LofiGirl");
         setLivestream(
-            "https://www.youtube.com/watch?v=DWcJFNfaw9c&ab_channel=LofiGirl"
+            "https://www.youtube.com/watch?v=jfKfPfyJRdk&ab_channel=LofiGirl"
         );
         playLiveStream(true);
         setPauseScreen("unpauseScreen");
@@ -207,11 +207,11 @@ function App() {
     };
 
     const theJazzHopCafe = () => {
-        setVideo("//www.youtube.com/embed/U8HBZOTZrf0?autoplay=1&mute=1&start=1");
-        setStationName("theJazz Cafe");
-        setYoutubeChannel("https://www.youtube.com/c/TheJazzHopCaf%C3%A9");
+        setVideo("https://www.youtube.com/watch?v=lbpCmN1IqGk&ab_channel=TheJazzHopCafé?autoplay=1&mute=1&start=1");
+        setStationName("The Jazz Hop Café");
+        setYoutubeChannel("https://www.youtube.com/c/TheJazzHopCafé");
         setLivestream(
-            "https://www.youtube.com/watch?v=-5KAN9_CzSA&ab_channel=STEEZYASFUCK"
+            "https://www.youtube.com/watch?v=lbpCmN1IqGk&ab_channel=TheJazzHopCafé"
         );
         playLiveStream(true);
         setPauseScreen("unpauseScreen");
@@ -221,10 +221,10 @@ function App() {
     };
 
     const Spinnin = () => {
-        setVideo("https://www.youtube.com/watch?v=0NbsyUXp1UI&t=1s&ab_channel=Spinnin%27Records?autoplay=1&mute=1&start=0");
+        setVideo("https://www.youtube.com/watch?v=Oaq9uRxsJhQ&ab_channel=Spinnin%27Records");
         setStationName("Spinnin' Records");
         setYoutubeChannel(
-            "https://www.youtube.com/channel/UCpDJl2EmP7Oh90Vylx0dZtA"
+            "https://www.youtube.com/@spinninrecords"
         );
         setLivestream(
             "https://www.youtube.com/watch?v=N65Jb683pXQ&ab_channel=Spinnin%27Records"
@@ -282,6 +282,20 @@ function App() {
         setBtnClass2("playBtn2");
     };
 
+    const SoothingRelaxation = () => {
+        setVideo("https://www.youtube.com/watch?v=-5ajVJ1Yxlg&ab_channel=SoothingRelaxation?autoplay=1&mute=1&start=0");
+        setStationName("Soothing Relaxation");
+        setYoutubeChannel("https://www.youtube.com/@SoothingRelaxation");
+        setLivestream(
+            "https://www.youtube.com/watch?v=-5ajVJ1Yxlg&ab_channel=SoothingRelaxation"
+        );
+        playLiveStream(true);
+        setPauseScreen("unpauseScreen");
+        setPlayPause(pauseImg);
+        setBtnClass("PlayPause2");
+        setBtnClass2("playBtn2");
+    };
+
     return (
         <div className="interfaceContainer">
             <div className="radioContainer">
@@ -293,7 +307,7 @@ function App() {
                         Anime={animeVibe}
                         Astral={astralThrob}
                         ChillHop={ChillHiphop}
-                        Cow={chilledCow}
+                        lofiGirl={chilledCow}
                         Spinnin={Spinnin}
                         Ivy={IvyRecords}
                         High={HFiveGOneFunc}
@@ -302,6 +316,7 @@ function App() {
                         Jazz={theJazzHopCafe}
                         Nice={NiceGuys}
                         Tomorrowland={Tomorrowland}
+                        SoothingRelaxation={SoothingRelaxation}
                     />
                 </div>
                 <div className="socialsContainer2">

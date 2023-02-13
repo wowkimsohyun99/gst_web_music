@@ -15,7 +15,8 @@ const RadioStations = ({
   Study,
   Jazz,
   Nice,
-  Tomorrowland
+  Tomorrowland,
+  SoothingRelaxation
 }) => {
   return (
     <div className="radioList">
@@ -159,7 +160,7 @@ const RadioStations = ({
           className="station"
         >
           <img className="triangle" src={triangle} alt="" />
-          The Jazz Café
+            The Jazz Hop Café
         </motion.div>
       </motion.div>
 
@@ -172,6 +173,18 @@ const RadioStations = ({
             >
                 <img className="triangle" src={triangle} alt="" />
                 Tomorrowland
+            </motion.div>
+        </motion.div>
+
+        <motion.div animate={{ opacity: [0, 1] }} transition={{ delay: 1.15 }}>
+            <motion.div
+                whileHover={{ scale: 1.09 }}
+                whileTap={{ scale: 0.9 }}
+                onClick={SoothingRelaxation}
+                className="station"
+            >
+                <img className="triangle" src={triangle} alt="" />
+                Soothing Relaxation
             </motion.div>
         </motion.div>
     </div>
