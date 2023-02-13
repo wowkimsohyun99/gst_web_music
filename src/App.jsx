@@ -296,6 +296,20 @@ function App() {
         setBtnClass2("playBtn2");
     };
 
+    const DooPiano = () => {
+        setVideo("https://www.youtube.com/watch?v=GqmAe0QfkjU&ab_channel=DooPiano?autoplay=1&mute=1&start=0");
+        setStationName("DooPiano");
+        setYoutubeChannel("https://www.youtube.com/@DooPiano");
+        setLivestream(
+            "https://www.youtube.com/watch?v=GqmAe0QfkjU&ab_channel=DooPiano"
+        );
+        playLiveStream(true);
+        setPauseScreen("unpauseScreen");
+        setPlayPause(pauseImg);
+        setBtnClass("PlayPause2");
+        setBtnClass2("playBtn2");
+    };
+
     return (
         <div className="interfaceContainer">
             <div className="radioContainer">
@@ -317,6 +331,7 @@ function App() {
                         Nice={NiceGuys}
                         Tomorrowland={Tomorrowland}
                         SoothingRelaxation={SoothingRelaxation}
+                        DooPiano={DooPiano}
                     />
                 </div>
                 <div className="socialsContainer2">
