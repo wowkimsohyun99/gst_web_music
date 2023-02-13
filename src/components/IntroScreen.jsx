@@ -38,10 +38,10 @@ const Hero = () => {
           <div class="wrap">
             <Link to="/music">
                 <button class="button">Start Listening</button>
-            </Link>         
+            </Link>
           </div>
         </div>
-        <ReactPlayer 
+        <ReactPlayer
               className="react-player"
               url="//www.youtube.com/embed/lf6refTxQs8?autoplay=1&mute=1&start=1"
               width="0%"
