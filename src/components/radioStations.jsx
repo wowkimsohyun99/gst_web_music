@@ -6,15 +6,15 @@ const RadioStations = ({
   Ambient,
   Anime,
   Astral,
-  ChillHop,
-  Cow,
+  Krewella,
   Spinnin,
   Ivy,
   High,
   Lofi,
   Study,
+  Proximity,
   Jazz,
-  Nice,
+  Lck,
   Tomorrowland,
   SoothingRelaxation,
   DooPiano
@@ -61,11 +61,11 @@ const RadioStations = ({
         <motion.div
           whileHover={{ scale: 1.09 }}
           whileTap={{ scale: 0.9 }}
-          onClick={ChillHop}
+          onClick={Krewella}
           className="station"
         >
           <img className="triangle" src={triangle} alt="" />
-          ChillHop Music
+          Krewella
         </motion.div>
       </motion.div>
 
@@ -73,11 +73,11 @@ const RadioStations = ({
         <motion.div
           whileHover={{ scale: 1.09 }}
           whileTap={{ scale: 0.9 }}
-          onClick={Cow}
+          onClick={Proximity}
           className="station"
         >
           <img className="triangle" src={triangle} alt="" />
-          Chilled Cow
+            Proximity
         </motion.div>
       </motion.div>
 
@@ -121,11 +121,11 @@ const RadioStations = ({
         <motion.div
           whileHover={{ scale: 1.09 }}
           whileTap={{ scale: 0.9 }}
-          onClick={Nice}
+          onClick={Lck}
           className="station"
         >
           <img className="triangle" src={triangle} alt="" />
-          <span> Nice Guys </span>
+          <span> LCK Official </span>
         </motion.div>
       </motion.div>
 

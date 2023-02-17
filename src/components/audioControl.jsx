@@ -7,7 +7,7 @@ import volumeOn from "../images/volumeOn.png";
 let lastPlayedVolume = 0;
 
 const AudioControls = ({
-  plauPause,
+  playPause,
   buttonClass,
   playPauseImage,
   buttonClass2,
@@ -40,7 +40,7 @@ const AudioControls = ({
       <motion.div
         whileHover={{ scale: 1.03 }}
         whileTap={{ scale: 0.9 }}
-        onClick={plauPause}
+        onClick={playPause}
         className={buttonClass}
       >
         <img src={playPauseImage} className={buttonClass2} alt="" />

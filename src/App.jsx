@@ -132,12 +132,12 @@ function App() {
         setBtnClass2("playBtn2");
     };
 
-    const ChillHiphop = () => {
-        setVideo("//www.youtube.com/embed/iEGFFyv0MH4?autoplay=1&mute=1&start=1");
-        setStationName("ChillHop Music");
-        setYoutubeChannel("https://www.youtube.com/c/Chillhopdotcom/videos");
+    const Krewella = () => {
+        setVideo("https://www.youtube.com/watch?v=J-gYJBsln-w&ab_channel=KrewellaMusicVEVO?autoplay=1&mute=1&start=1");
+        setStationName("Krewella");
+        setYoutubeChannel("https://www.youtube.com/channel/UCDY_0WzkHyj0A1ev6RTql1Q");
         setLivestream(
-            "https://www.youtube.com/watch?v=7NOSDKb0HlU&ab_channel=ChillhopMusic"
+            "https://www.youtube.com/watch?v=J-gYJBsln-w&ab_channel=KrewellaMusicVEVO"
         );
         playLiveStream(true);
         setPauseScreen("unpauseScreen");
@@ -192,12 +192,12 @@ function App() {
         setBtnClass2("playBtn2");
     };
 
-    const chilledCow = () => {
-        setVideo("https://www.youtube.com/watch?v=jfKfPfyJRdk&ab_channel=LofiGirl");
-        setStationName("Chilled Cow");
-        setYoutubeChannel("https://www.youtube.com/c/LofiGirl");
+    const proximity = () => {
+        setVideo("https://www.youtube.com/watch?v=xETEYG-az9E&ab_channel=Proximity");
+        setStationName("Proximity");
+        setYoutubeChannel("https://www.youtube.com/@Proximity");
         setLivestream(
-            "https://www.youtube.com/watch?v=jfKfPfyJRdk&ab_channel=LofiGirl"
+            "https://www.youtube.com/watch?v=xETEYG-az9E&ab_channel=Proximity"
         );
         playLiveStream(true);
         setPauseScreen("unpauseScreen");
@@ -252,14 +252,14 @@ function App() {
         setBtnClass2("playBtn2");
     };
 
-    const NiceGuys = () => {
-        setVideo("//www.youtube.com/embed/3n1aC2TYXIA?autoplay=1&mute=1&start=1");
-        setStationName("Nice Guys");
+    const Lck = () => {
+        setVideo("https://www.youtube.com/watch?v=HUuyaeJtbaI&ab_channel=LCKTiếngViệt");
+        setStationName("LCK Official");
         setYoutubeChannel(
-            "https://www.youtube.com/channel/UCMmt12UKW571UWtJAgWkWqg"
+            "https://www.youtube.com/@LCKTiengViet"
         );
         setLivestream(
-            "https://www.youtube.com/watch?v=oVi5gtzTDx0&ab_channel=NiceGuys"
+            "https://www.youtube.com/watch?v=HUuyaeJtbaI&ab_channel=LCKTiếngViệt"
         );
         playLiveStream(true);
         setPauseScreen("unpauseScreen");
@@ -320,15 +320,15 @@ function App() {
                         Ambient={AmbientRenders}
                         Anime={animeVibe}
                         Astral={astralThrob}
-                        ChillHop={ChillHiphop}
-                        lofiGirl={chilledCow}
+                        Krewella={Krewella}
+                        Proximity={proximity}
                         Spinnin={Spinnin}
                         Ivy={IvyRecords}
                         High={HFiveGOneFunc}
                         Lofi={LofiGirlVideo}
                         Study={StudyMD}
                         Jazz={theJazzHopCafe}
-                        Nice={NiceGuys}
+                        Lck={Lck}
                         Tomorrowland={Tomorrowland}
                         SoothingRelaxation={SoothingRelaxation}
                         DooPiano={DooPiano}
@@ -352,7 +352,7 @@ function App() {
             </div>
             <div className="audioControlContainer">
                 <AudioControls
-                    plauPause={handlePausePlaySwitch}
+                    playPause={handlePausePlaySwitch}
                     buttonClass={BtnClass}
                     playPauseImage={playPauseImg}
                     buttonClass2={BtnClass2}
